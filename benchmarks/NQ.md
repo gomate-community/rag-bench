@@ -12,21 +12,39 @@
 	  <th align="center"> Model </th>
       <th align="center"> Year </th>
       <th align="center"> Paper </th>
-      <th align="center">String EM</th>
-	  <th align="center">Rouge L</th>
-	  <th align="center"> Disambig F1 </th>
-	  <th align="center">D-R Score</th>
+      <th align="center">Retriever</th>
+	  <th align="center">Generator</th>
+	  <th align="center"> NDCG@10 </th>
+	  <th align="center"> EM </th>
     </tr>
   </thead>
  <tbody>
  <tr>
-  <td><a href="XXX">XXX</a></td>
+  <td>BGM</td>
   <td>2024</td>
-  <td> - </td>
+  <td><a href="https://arxiv.org/pdf/2401.06954"><sub>Bridging the Preference Gap between Retrievers and LLMs</sub></a></td>
+  <td align="center"> "pre-given candiates" & T5-XXL (11B) </td>
+  <td align="center"> PaLM2-S </td>
   <td align="center"> - </td>
+  <td align="center"> 45.37 </td>
+ </tr>
+ <tr>
+  <td>$$BGE_{Baseline1}$$</td>
+  <td>2024</td>
+  <td><a href="https://arxiv.org/pdf/2401.06954"><sub>Bridging the Preference Gap between Retrievers and LLMs</sub></a></td>
+  <td align="center"><a href="https://arxiv.org/pdf/2112.07899">GTR</a> </td>
+  <td align="center"> PaLM2-S </td>
   <td align="center"> - </td>
+  <td align="center"> 43.79 </td>
+ </tr>
+ <tr>
+  <td>$$BGE_{Baseline2}$$</td>
+  <td>2024</td>
+  <td><a href="https://arxiv.org/pdf/2401.06954"><sub>Bridging the Preference Gap between Retrievers and LLMs</sub></a></td>
   <td align="center"> - </td>
+  <td align="center"> PaLM2-S </td>
   <td align="center"> - </td>
+  <td align="center"> 33.07 </td>
  </tr>
 
  </tbody>
