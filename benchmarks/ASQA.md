@@ -87,30 +87,3 @@ These results can be reproduced based on [the script](./benchmarks/ASQA/run.sh) 
  </tr>
  </tbody>
 </table>
-
-<script>
-  // Add sorting functionality
-  document.addEventListener('DOMContentLoaded', () => {
-    const table = document.getElementById('sortableTable');
-    const headers = table.querySelectorAll('th');
-    const rows = Array.from(table.querySelectorAll('tbody > tr'));
-
-    headers.forEach((header, index) => {
-      header.addEventListener('click', () => {
-        const sortedRows = rows.sort((rowA, rowB) => {
-          const cellA = rowA.children[index].textContent.trim();
-          const cellB = rowB.children[index].textContent.trim();
-
-          // Handle numeric and string comparison
-          return !isNaN(cellA) && !isNaN(cellB)
-            ? cellA - cellB
-            : cellA.localeCompare(cellB);
-        });
-
-        // Append sorted rows to the tbody
-        const tbody = table.querySelector('tbody');
-        sortedRows.forEach(row => tbody.appendChild(row));
-      });
-    });
-  });
-</script>

@@ -23,7 +23,7 @@
   <td>BGM</td>
   <td>2024</td>
   <td><a href="https://arxiv.org/pdf/2401.06954"><sub>Bridging the Preference Gap between Retrievers and LLMs</sub></a></td>
-  <td align="center"> "pre-given candiates" & T5-XXL (11B) </td>
+  <td align="center">  T5-XXL(11B) </td>
   <td align="center"> PaLM2-S </td>
   <td align="center"> - </td>
   <td align="center"> 45.37 </td>
@@ -46,36 +46,18 @@
   <td align="center"> - </td>
   <td align="center"> 33.07 </td>
  </tr>
+ <tr>
+  <td><a href="https://www.kaggle.com/models/google/gtr?tfhub-redirect=true">GTR</a></td>
+  <td>2021</td>
+  <td><a href="https://arxiv.org/pdf/2112.07899"><sub>Large Dual Encoders Are Generalizable Retrievers</sub></a></td>
+  <td align="center"> GTR-XXL(4.8B) </td>
+  <td align="center"> - </td>
+  <td align="center"> 56.8 </td>
+  <td align="center"> - </td>
+ </tr>
 
  </tbody>
 </table>
-
-<script>
-  // Add sorting functionality
-  document.addEventListener('DOMContentLoaded', () => {
-    const table = document.getElementById('sortableTable');
-    const headers = table.querySelectorAll('th');
-    const rows = Array.from(table.querySelectorAll('tbody > tr'));
-
-    headers.forEach((header, index) => {
-      header.addEventListener('click', () => {
-        const sortedRows = rows.sort((rowA, rowB) => {
-          const cellA = rowA.children[index].textContent.trim();
-          const cellB = rowB.children[index].textContent.trim();
-
-          // Handle numeric and string comparison
-          return !isNaN(cellA) && !isNaN(cellB)
-            ? cellA - cellB
-            : cellA.localeCompare(cellB);
-        });
-
-        // Append sorted rows to the tbody
-        const tbody = table.querySelector('tbody');
-        sortedRows.forEach(row => tbody.appendChild(row));
-      });
-    });
-  });
-</script>
 
 
 ### 2. LLM-based Methods (Reproducable)
