@@ -19,6 +19,7 @@
     </tr>
   </thead>
  <tbody>
+ <!-- paper split -->
  <tr>
   <td rowspan=3><a href="https://arxiv.org/pdf/2401.06954"><sub>Bridging the Preference Gap between Retrievers and LLMs</sub></a></td>
   <td rowspan=3>2024</td>
@@ -26,18 +27,27 @@
  </tr>
  <tr>
   <td>$$BGE_{Baseline1}$$</td>
-  <td align="center"><a href="https://arxiv.org/pdf/2112.07899">GTR</a> </td>
-  <td align="center"> PaLM2-S </td>
-  <td align="center"> - </td>
-  <td align="center"> 43.79 </td>
+  <td align="center"><a href="https://arxiv.org/pdf/2112.07899">GTR</a> </td><td align="center"> PaLM2-S </td><td align="center"> - </td><td align="center"> 43.79 </td>
  </tr>
  <tr>
   <td>$$BGE_{Baseline2}$$</td>
-  <td align="center"> - </td>
-  <td align="center"> PaLM2-S </td>
-  <td align="center"> - </td>
-  <td align="center"> 33.07 </td>
+  <td align="center"> - </td><td align="center"> PaLM2-S </td><td align="center"> - </td><td align="center"> 33.07 </td>
  </tr>
+ <!-- paper split -->
+ <tr>
+  <td rowspan=3><a href="https://arxiv.org/pdf/2401.06954"><sub>ACTIVERAG: Autonomously Knowledge Assimilation and Accommodation through Retrieval-Augmented Agents</sub></a></td>
+  <td rowspan=3>2024</td>
+  <td><a href="https://github.com/OpenMatch/ActiveRAG">ActiveRAG [[code](https://github.com/lovodkin93/attribute-first-then-generate): ![](https://img.shields.io/github/stars/lovodkin93/attribute-first-then-generate.svg?style=social) </a></td> <td align="center">  T5-XXL(11B) </td> <td align="center"> PaLM2-S </td> <td align="center"> - </td> <td align="center"> 45.37 </td>
+ </tr>
+ <tr>
+  <td>$$BGE_{Baseline1}$$</td>
+  <td align="center"><a href="https://arxiv.org/pdf/2112.07899">GTR</a> </td><td align="center"> PaLM2-S </td><td align="center"> - </td><td align="center"> 43.79 </td>
+ </tr>
+ <tr>
+  <td>$$BGE_{Baseline2}$$</td>
+  <td align="center"> - </td><td align="center"> PaLM2-S </td><td align="center"> - </td><td align="center"> 33.07 </td>
+ </tr>
+ <!-- paper split -->
  <tr>
   <td><a href="https://arxiv.org/pdf/2112.07899"><sub>Large Dual Encoders Are Generalizable Retrievers</sub></a></td>
   <td>2021</td>
