@@ -9,9 +9,9 @@
 <table id="sortableTable">
  <thead>
     <tr>
-	  <th align="center"> Model </th>
+	  <th align="center" style="width:246px;"> Paper </th>
       <th align="center"> Year </th>
-      <th align="center"> Paper </th>
+      <th align="center"> Model </th>
       <th align="center">Retriever</th>
 	  <th align="center">Generator</th>
 	  <th align="center"> NDCG@10 </th>
@@ -20,18 +20,12 @@
   </thead>
  <tbody>
  <tr>
-  <td>BGM</td>
-  <td>2024</td>
-  <td><a href="https://arxiv.org/pdf/2401.06954"><sub>Bridging the Preference Gap between Retrievers and LLMs</sub></a></td>
-  <td align="center">  T5-XXL(11B) </td>
-  <td align="center"> PaLM2-S </td>
-  <td align="center"> - </td>
-  <td align="center"> 45.37 </td>
+  <td rowspan=3><a href="https://arxiv.org/pdf/2401.06954"><sub>Bridging the Preference Gap between Retrievers and LLMs</sub></a></td>
+  <td rowspan=3>2024</td>
+  <td>BGM</td> <td align="center">  T5-XXL(11B) </td> <td align="center"> PaLM2-S </td> <td align="center"> - </td> <td align="center"> 45.37 </td>
  </tr>
  <tr>
   <td>$$BGE_{Baseline1}$$</td>
-  <td>2024</td>
-  <td><a href="https://arxiv.org/pdf/2401.06954"><sub>Bridging the Preference Gap between Retrievers and LLMs</sub></a></td>
   <td align="center"><a href="https://arxiv.org/pdf/2112.07899">GTR</a> </td>
   <td align="center"> PaLM2-S </td>
   <td align="center"> - </td>
@@ -39,17 +33,15 @@
  </tr>
  <tr>
   <td>$$BGE_{Baseline2}$$</td>
-  <td>2024</td>
-  <td><a href="https://arxiv.org/pdf/2401.06954"><sub>Bridging the Preference Gap between Retrievers and LLMs</sub></a></td>
   <td align="center"> - </td>
   <td align="center"> PaLM2-S </td>
   <td align="center"> - </td>
   <td align="center"> 33.07 </td>
  </tr>
  <tr>
-  <td><a href="https://www.kaggle.com/models/google/gtr?tfhub-redirect=true">GTR</a></td>
-  <td>2021</td>
   <td><a href="https://arxiv.org/pdf/2112.07899"><sub>Large Dual Encoders Are Generalizable Retrievers</sub></a></td>
+  <td>2021</td>
+  <td><a href="https://www.kaggle.com/models/google/gtr?tfhub-redirect=true">GTR</a></td>
   <td align="center"> GTR-XXL(4.8B) </td>
   <td align="center"> - </td>
   <td align="center"> 56.8 </td>
