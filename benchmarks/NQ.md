@@ -37,7 +37,7 @@
  <tr>
   <td rowspan=3><a href="https://arxiv.org/pdf/2401.06954"><sub>ACTIVERAG: Autonomously Knowledge Assimilation and Accommodation through Retrieval-Augmented Agents</sub></a></td>
   <td rowspan=3>2024</td>
-  <td><a href="https://github.com/OpenMatch/ActiveRAG">ActiveRAG </a> \n\n [code](https://github.com/lovodkin93/attribute-first-then-generate): ![](https://img.shields.io/github/stars/lovodkin93/attribute-first-then-generate.svg?style=social) \n\n </td> <td align="center">  T5-XXL(11B) </td> <td align="center"> PaLM2-S </td> <td align="center"> - </td> <td align="center"> 45.37 </td>
+  <td><a href="https://github.com/OpenMatch/ActiveRAG">ActiveRAG </a> :white_check_mark: </td> <td align="center">  T5-XXL(11B) </td> <td align="center"> PaLM2-S </td> <td align="center"> - </td> <td align="center"> 45.37 </td>
  </tr>
  <tr>
   <td>$$BGE_{Baseline1}$$</td>
