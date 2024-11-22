@@ -79,7 +79,7 @@ Here are datasets with the corresponding metrics.
    <td align="center">Ragas</td>
  </tr>
  <tr>
-   <td align="center"><a href="https://huggingface.co/datasets/din0s/asqa">ASQA</a></td>
+   <td align="center"><a href="./benchmarks/ASQA.md">ASQA</a></td>
    <td align="center">Generator</td>
    <td align="center">disambig F1, RougeL, EM</td>
  </tr>
