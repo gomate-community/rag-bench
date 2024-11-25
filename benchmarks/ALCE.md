@@ -4,7 +4,52 @@
 
 ## Performance
 
-### 1. LLM-based Methods
+### 1. Leaderboard from SOTA
+
+#### 1.1 ASQA dataset
+<table id="sortableTable">
+ <thead>
+    <tr>
+	  <th align="center" style="width:246px;"> Paper </th>
+      <th align="center"> Year </th>
+      <th align="center"> Model </th>
+      <th align="center">Model Details</th>
+	  <th align="center"> precision </th>
+	  <th align="center"> recall </th>
+	  <th align="center"> str-EM </th>
+	  <th align="center"> rouge </th>
+      <th align="center"> MAUVE </th>
+    </tr>
+  </thead>
+ <tbody>
+ <!-- paper split -->
+ <tr>
+  <td rowspan=4><a href="https://arxiv.org/pdf/2310.11511"><sub>SELF-RAG: Learning To Retrieve, Generate, and Critique  Through SELF-Reflection </sub></a></td>
+  <td rowspan=4>2024</td>
+  <td rowspan=2><a href="https://github.com/AkariAsai/self-rag">Self-RAG </a>
+
+![](https://img.shields.io/github/stars/AkariAsai/self-rag.svg?style=social)
+
+</td> <td align="center">  R: GTR-XXL ,G: Llama2-13B </td> <td align="center"> 70.3 </td> <td align="center"> 71.3 </td> <td align="center"> 31.7 </td><td align="center"> 37.0 </td><td align="center"> 71.6 </td>
+ </tr>
+  <tr>
+  <td align="center">  R: GTR-XXL ,G:Llama2-7B </td> <td align="center"> 66.9 </td> <td align="center"> 67.8 </td> <td align="center"> 30.0 </td><td align="center"> 35.7 </td><td align="center"> 74.3 </td>
+ </tr>
+ <tr>
+  <td>Baseline1</td>
+  <td align="center"> R: :x:, G: Llama2-7B </td><td align="center"> - </td><td align="center"> - </td><td align="center"> 7.9 </td><td align="center"> 15.3 </td><td align="center"> 19.0 </td>
+ </tr>
+ <tr>
+  <td>Baseline2</td>
+  <td align="center"> R: :x:, G: Llama2-13B </td><td align="center"> - </td><td align="center"> - </td><td align="center"> 7.2</td><td align="center"> 12.4</td><td align="center"> 16.0</td>
+ </tr>
+ <!-- paper split -->
+ 
+
+ </tbody>
+</table>
+
+### 2. LLM-based Methods (reproducable)
 
 <table>
  <col width=75>
