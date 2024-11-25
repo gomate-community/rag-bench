@@ -21,12 +21,12 @@ Here are datasets with the corresponding metrics.
   <td align="center">Rouge, EM</td>
  </tr>
  <tr>
-  <td align="center"><a href="https://huggingface.co/datasets/mandarjoshi/trivia_qa">TriviaQA</a></td>
+  <td align="center"><a href="./benchmarks/TriviaQA.md">TriviaQA</a></td>
   <td align="center">Generator</td>
   <td align="center">EM</td>
  </tr>
  <tr>
-   <td align="center"><a href="https://huggingface.co/datasets/narrativeqa">NarrativeQA (NQA)</a></td>
+   <td align="center"><a href="./benchmarks/NarrativeQA.md">NarrativeQA (NQA)</a></td>
    <td align="center">Generator</td>
    <td align="center">Rouge</td>
  </tr>
@@ -36,7 +36,7 @@ Here are datasets with the corresponding metrics.
    <td align="center">EM</td>
  </tr>
  <tr>
-   <td align="center"><a href="https://huggingface.co/datasets/akariasai/PopQA">PopQA</a></td>
+   <td align="center"><a href="./benchmarks/PopQA.md">PopQA</a></td>
    <td align="center">Generator, Rewriter</td>
    <td align="center">EM</td>
  </tr>
@@ -58,12 +58,12 @@ Here are datasets with the corresponding metrics.
 
  <tr>
   <td rowspan=2 align="center">Multi-Hop QA</td>
-  <td align="center"><a href="https://github.com/Alab-NII/2wikimultihop">2WikiMultihopQA</a></td>
+  <td align="center"><a href="./benchmarks/2WikiMHQA.md">2WikiMultihopQA</a></td>
   <td align="center">Generator</td>
   <td align="center">F1</td>
  </tr>
  <tr>
-   <td align="center"><a href="https://huggingface.co/datasets/hotpot_qa">HotpotQA</a></td>
+   <td align="center"><a href="./benchmarks/HotpotQA">HotpotQA</a></td>
    <td align="center">Generator, Rewriter</td>
    <td align="center">F1</td>
  </tr>

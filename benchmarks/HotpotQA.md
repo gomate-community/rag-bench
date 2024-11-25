@@ -1,6 +1,6 @@
-# NQ benchmark
+# HotpotQA benchmark
 
-[NQ dataset](https://huggingface.co/datasets/din0s/asqa) questions from real users, and it requires QA systems to read and comprehend an entire Wikipedia article that may or may not contain the answer to the question. The inclusion of real user questions, and the requirement that solutions should read an entire page to find the answer, cause NQ to be a more realistic and challenging task than prior QA datasets.  
+[HotpotQA dataset](https://huggingface.co/datasets/hotpot_qa) is a new dataset with 113k Wikipedia-based question-answer pairs with four key features: (1) the questions require finding and reasoning over multiple supporting documents to answer; (2) the questions are diverse and not constrained to any pre-existing knowledge bases or knowledge schemas; (3) we provide sentence-level supporting facts required for reasoning, allowingQA systems to reason with strong supervision and explain the predictions; (4) we offer a new type of factoid comparison questions to test QA systems’ ability to extract relevant facts and perform necessary comparison.
 
 ## Performance
 
@@ -19,27 +19,6 @@
     </tr>
   </thead>
  <tbody>
- <!-- paper split -->
- <tr>
-  <td rowspan=4><a href="https://arxiv.org/pdf/2406.13629"><sub>INSTRUCTRAG: Instructing Retrieval-Augmented Generation via Self-Synthesized Rationales </sub></a></td>
-  <td rowspan=4>2024</td>
-  <td rowspan=2><a href="https://github.com/weizhepei/InstructRAG">InstructRAG </a>
-
-![](https://img.shields.io/github/stars/weizhepei/InstructRAG.svg?style=social)
-
-</td> <td align="center">  R:DPR ,G:Llama3-Ins-8B(FT) </td> <td align="center"> - </td> <td align="center"> 68.8 </td> <td align="center"> 65.7 </td>
- </tr>
-  <tr>
-  <td align="center">  R: DPR ,G:Llama3-Ins-8B(ICL) </td> <td align="center"> - </td> <td align="center"> 68.8 </td> <td align="center"> 62.1</td>
- </tr>
- <tr>
-  <td>NaiveRAG</td>
-  <td align="center"> R: DPR, G: ChatGPT </td><td align="center"> - </td><td align="center"> 68.8 </td><td align="center"> - </td>
- </tr>
- <tr>
-  <td> NaiveRAG </td>
-  <td align="center"> R: DPR, G: Llama3-Ins8B </td><td align="center"> - </td><td align="center"> 68.8 </td><td align="center"> 60.1 </td>
- </tr>
  <!-- paper split -->
  <tr>
   <td rowspan=3><a href="https://arxiv.org/pdf/2401.06954"><sub>Bridging the Preference Gap between Retrievers and LLMs</sub></a></td>
@@ -88,7 +67,6 @@
   <td align="center"> - </td>
   <td align="center"> - </td>
  </tr>
-
 
  </tbody>
 </table>
