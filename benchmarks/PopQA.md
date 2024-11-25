@@ -69,7 +69,7 @@
   <!-- paper split -->
  <tr>
   <td rowspan=4><a href="https://arxiv.org/pdf/2310.11511"><sub>SELF-RAG: Learning To Retrieve, Generate, and Critique  Through SELF-Reflection </sub></a></td>
-  <td rowspan=4>2024</td>
+  <td rowspan=4>2023</td>
   <td rowspan=2><a href="https://github.com/AkariAsai/self-rag">Self-RAG </a>
 
 ![](https://img.shields.io/github/stars/AkariAsai/self-rag.svg?style=social)
