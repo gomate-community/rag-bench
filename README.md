@@ -9,15 +9,18 @@ RAG-Bench is to summarize all datasets used to evaluate RAG, from document retri
 Here are datasets with the corresponding metrics.
 
 <table>
- <tr>
-  <td rowspan=1 align="center"><b>Task</b></td>
-  <td colspan=1 align="center"><b>Dataset</b></td>
-  <td rowspan=1 align="center"><b>Pubyear</b></td>
-  <td rowspan=1 align="center"><b>Documents</b></td>
-  <td rowspan=1 align="center"><b>Questions</b></td>
-  <td rowspan=1 align="center"><b>Answers</b></td>
-  <td colspan=1 align="center"><b>Metrics</b></td>
- </tr>
+<thead>
+    <tr>
+	  <th align="center"> Task </th>
+      <th align="center"> Dataset </th>
+      <th align="center"> Pubyear </th>
+      <th align="center"> Documents </th>
+	  <th align="center"> Questions </th>
+	  <th align="center"> Answers </th>
+	  <th align="center"> Metrics </th>
+    </tr>
+  </thead>
+
  <tr>
   <td rowspan=8 align="center">Factoid QA</td>
   <td align="center"><a href="./benchmarks/NQ.md">Natural Questions (NQ)</a></td>
