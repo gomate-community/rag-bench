@@ -11,7 +11,7 @@ Here are datasets with the corresponding metrics.
 <table>
 <thead>
     <tr>
-	  <th align="center"> Task </th>
+	  <th align="center" style="width:126px;"> Task </th>
       <th align="center"> Dataset </th>
       <th align="center"> Pubyear </th>
       <th align="center"> Documents </th>
